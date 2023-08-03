@@ -5,6 +5,7 @@
 !/dxvk.conf
 !/.gitignore
 !/.gitattributes
+!/LICENSE
 
 !/.trex
 /.trex/*
