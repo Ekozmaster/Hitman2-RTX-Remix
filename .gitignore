@@ -1,0 +1,14 @@
+/*
+!/rtx-remix/
+!/rtx-remix-defaults/
+!/docs/
+!/dxvk.conf
+!/.gitignore
+!/.gitattributes
+
+!/.trex
+/.trex/*
+!/.trex/bridge.conf
+
+captures/
+.thumbs/
