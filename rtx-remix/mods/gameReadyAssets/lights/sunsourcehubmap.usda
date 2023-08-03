@@ -1,0 +1,33 @@
+#usda 1.0
+(
+    defaultPrim = "Root"
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def RectLight "RectLight" (
+        apiSchemas = ["ShapingAPI"]
+    )
+    {
+        float exposure = 1
+        float height = 1000
+        float intensity = 100000
+        bool isProjector = 1
+        float shaping:cone:angle = 180
+        float shaping:cone:softness
+        float shaping:focus
+        color3f shaping:focusTint
+        asset shaping:ies:file
+        token ui:displayGroup = "Material Graphs"
+        token ui:displayName = "RectLight"
+        int ui:order = 1024
+        token visibility = "invisible"
+        float width = 1000
+        float3 xformOp:rotateXYZ = (0, -0, 0)
+        float3 xformOp:scale = (1, 1, 1)
+        double3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:rotateXYZ", "xformOp:scale"]
+    }
+}
+
