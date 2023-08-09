@@ -7,8 +7,8 @@
                 double radius = 500
             }
             dictionary Perspective = {
-                double3 position = (715.2254636519514, 13.088673706123881, 1359.215036079417)
-                double3 target = (112.34131956036583, -97.86714608218011, 2358.806765375317)
+                double3 position = (458.42749703827985, 180.34256846904395, 796.0633457781322)
+                double3 target = (-371.2428339128111, -164.6763844491453, 42.688821065855336)
             }
             dictionary Right = {
                 double3 position = (-50000, 0, 0)
@@ -57,13 +57,14 @@
             float3 "rtx:raytracing:inscattering:singleScatteringAlbedo" = (0.9, 0.9, 0.9)
             float3 "rtx:raytracing:inscattering:transmittanceColor" = (0.5, 0.5, 0.5)
             float3 "rtx:sceneDb:ambientLightColor" = (0, 0, 0)
+            bool "rtx:useViewLightingMode" = 1
         }
     }
     endTimeCode = 100
     metersPerUnit = 0.01
     startTimeCode = 0
     subLayers = [
-        @./captures/capture_2023-08-07_23-39-42.usd@,
+        @./captures/capture_2023-08-08_18-01-31.usd@,
         @./mods/gameReadyAssets/mod.usda@
     ]
     timeCodesPerSecond = 24
